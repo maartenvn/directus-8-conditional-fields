@@ -1,0 +1,91 @@
+{
+    "name": "$t:name",
+    "version": "1.0.0",
+    "icon": "arrow_drop_down_circle",
+    "types": ["string"],
+    "options": {
+        "choices": {
+            "name": "$t:choices",
+            "comment": "$t:choices_comment",
+            "interface": "key-value",
+            "type": "JSON",
+            "options": {
+                "keyInterface": "text-input",
+                "keyType": "string",
+                "keyOptions": {
+                    "placeholder": "$t:choices_key",
+                    "monospace": true
+                },
+                "valueInterface": "tags",
+                "valueType": "array",
+                "valueOptions": {
+                    "placeholder": "$t:choices_value",
+                    "monospace": true
+                }
+            }
+        },
+
+        "placeholder": {
+            "name": "$t:placeholder",
+            "interface": "text-input",
+            "comment": "$t:placeholder_comment",
+            "default": "$t:placeholder_default",
+            "length": 200
+        },
+
+        "formatting": {
+            "name": "$t:formatting",
+            "comment": "$t:formatting_comment",
+            "interface": "switch",
+            "type": "BOOLEAN",
+            "default": true
+        },
+
+        "icon": {
+            "name": "$t:icon",
+            "comment": "$t:icon_comment",
+            "interface": "icon",
+            "advanced": true
+        }
+    },
+
+    "translation": {
+        "en-US": {
+            "name": "Conditional Field Selector",
+
+            "choices": "Options",
+            "choices_comment": "Options for the different contional field groups",
+            "choices_key": "Name of the conditional group",
+            "choices_value": "List of fields for the conditional group",
+
+            "placeholder": "Placeholder",
+            "placeholder_comment": "Enter placeholder text",
+            "placeholder_default": "Choose an option...",
+
+            "formatting": "Format the choices",
+            "formatting_comment": "Replace underscores with spaces & capitalize the key",
+
+            "icon": "Icon",
+            "icon_comment": "Choose an optional icon to display on the input"
+        },
+
+        "nl-NL": {
+            "name": "Conditionele veld selectie",
+
+            "choices": "Opties",
+            "choices_comment": "Opties voor de verschillende conditionele groepen",
+            "choices_key": "Naam van de conditionele groep",
+            "choices_value": "Lijst met velden voor de conditionele groep",
+
+            "placeholder": "Tijdelijke plaatshouder",
+            "placeholder_comment": "Statische tekst die wordt weergegeven voordat een waarde wordt geselecteerd",
+            "placeholder_default": "Kies een optie...",
+
+            "formatting": "Formateer de opties",
+            "formatting_comment": "Vervang underscores met spaties & plaats de sleutel in hoofdletters",
+
+            "icon": "Icoon",
+            "icon_comment": "Kies een optioneel icoon om weer te geven aan de linkerkant van de invoer"
+        }
+    }
+}
