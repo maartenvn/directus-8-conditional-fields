@@ -54,7 +54,7 @@
             "name": "Conditional Field Selector",
 
             "choices": "Options",
-            "choices_comment": "Options for the different contional field groups",
+            "choices_comment": "Options for the different conditional field groups",
             "choices_key": "Name of the conditional group",
             "choices_value": "List of fields for the conditional group",
 
