@@ -29,7 +29,7 @@ A dropdown menu will appear with the `key` as display text.
 
 ## :gear: Options
 
-Checkout common interface options(passed via `props`) [here.](https://github.com/directus/app/blob/develop/src/interfaces/README.md)
+Checkout common interface options(passed via `props`) [here.](https://github.com/directus/v8-archive/blob/master/app/src/interfaces/README.md)
 
 | Option             | Default | Interface      | Desc                                                                  |
 | ------------------ | ------- | -------------- | --------------------------------------------------------------------- |
